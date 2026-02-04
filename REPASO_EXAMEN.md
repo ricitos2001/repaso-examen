@@ -22,6 +22,14 @@ Se proporciona un archivo `db.json` inicial para levantar una API simulada con `
 }
 ```
 
+### Iniciar backend simulado
+```bash
+npm install json-server --save-dev
+npm audit fix
+json-server db.json --port 3000
+```
+ATENCIÓN: el archivo `db.json` debe estar guardado en la carpeta raiz del proyecto no en el `src`
+
 ---
 
 ## BLOQUE 1: ESTRUCTURA, RUTAS Y NAVEGACIÓN (Fase 4)
